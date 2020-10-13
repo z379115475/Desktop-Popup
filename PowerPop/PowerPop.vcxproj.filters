@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1c611f45-1849-4c31-b2c0-e57bd55a2a1c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0210bf56-aef4-4767-8a8f-ef6b153a7fba}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{c2488c49-02fb-4691-b56f-424fbb5712a5}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerPop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AboutDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kernel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\CloudHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\HardInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BrowserView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\CloudHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\HardInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kbutton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PowerPop.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\PowerPop.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\png1.png" />
+    <Image Include="res\app_window_close.png" />
+    <Image Include="res\app_window_close_active.png" />
+    <Image Include="res\app_window_close_hover.png" />
+  </ItemGroup>
+</Project>
